@@ -1,3 +1,11 @@
+var express = require('express');
+var PORT = process.env.PORT || 23333;
+
+app.use(express.static(__dirname + '/public'));
+app.get('/*', function(req, res) {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
 var Pinger = function(url, interval) {
   var self = this;
   var request = require('request');
@@ -31,3 +39,7 @@ var pingers = {
   rakugaki_kcalb:  new Pinger('https://kcalb.rakugaki.me', ping_interval),
   self: new Pinger('https://otaku-pinger.herokuapp.com', ping_interval)
 };
+
+app.listen(PORT, function() {
+  console.log('Listening on port %d', PORT);
+});

@@ -4,6 +4,7 @@
   "description": "ping heroku dyno to keep them awake",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.14.0",
     "request": "^2.74.0"
   },
   "devDependencies": {},
