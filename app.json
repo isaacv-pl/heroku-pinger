@@ -1,0 +1,8 @@
+{
+  "name": "Otaku Pinger",
+  "description": "Send test pings to my heroku apps.",
+  "repository": "https://github.com/artchen/heroku-pinger",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

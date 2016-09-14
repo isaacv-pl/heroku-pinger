@@ -1,0 +1,27 @@
+{
+  "name": "heroku-pinger",
+  "version": "0.0.0",
+  "description": "ping heroku dyno to keep them awake",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artchen/heroku-pinger.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Art Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artchen/heroku-pinger/issues"
+  },
+  "homepage": "https://github.com/artchen/heroku-pinger#readme"
+}
