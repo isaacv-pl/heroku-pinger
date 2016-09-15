@@ -38,8 +38,8 @@ var pingers = {
   otakism: new Pinger('https://otakism.com/ping.txt', ping_interval),
   rakugaki_yabu: new Pinger('https://yabu.rakugaki.me', ping_interval),
   rakugaki_kcalb:  new Pinger('https://kcalb.rakugaki.me', ping_interval),
-  pinger_otaku: new Pinger('https://otaku-pinger.herokuapp.com', ping_interval),
-  pinger_daimyo: new Pinger('https://daimyo-pinger.herokuapp.com', ping_interval)
+  pinger_otaku: new Pinger('https://pinger-otaku.herokuapp.com', ping_interval),
+  pinger_daimyo: new Pinger('https://pinger-daimyo.herokuapp.com', ping_interval)
 };
 
 app.listen(PORT, function() {
