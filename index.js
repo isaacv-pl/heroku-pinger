@@ -33,13 +33,7 @@ var Pinger = function(url, interval) {
 
 var ping_interval = 1000*60; // 1-minute interval
 var pingers = {
-  rakugaki: new Pinger('https://rakugaki.me/ping.txt', ping_interval),
-  otakism_works: new Pinger('https://works.otakism.com/ping.txt', ping_interval),
-  otakism: new Pinger('https://otakism.com/ping.txt', ping_interval),
-  rakugaki_yabu: new Pinger('https://yabu.rakugaki.me', ping_interval),
-  rakugaki_kcalb:  new Pinger('https://kcalb.rakugaki.me', ping_interval),
-  pinger_otaku: new Pinger('https://pinger-otaku.herokuapp.com', ping_interval),
-  pinger_daimyo: new Pinger('https://pinger-daimyo.herokuapp.com', ping_interval)
+  pinger_daimyo: new Pinger('https://codelads.herokuapp.com', ping_interval)
 };
 
 app.listen(PORT, function() {

@@ -1,2 +1,8 @@
 # heroku-pinger
-Ping heroku dynos to keep them awake.
+Ping CodeLads for the A.
+
+Run in Background;
+
+npm install
+
+node index.js
